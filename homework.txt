@@ -1,0 +1,79 @@
+Tell me, does it look like in heaven?what 
+Is it peaceful? Is it free like they say?
+Does the sun shine bright forever?
+Have your fears and your pain gone away?
+'Cause here on Earth it feels like everything
+Good is missing since you left
+And here on Earth, everything's different
+There's an emptiness
+vim-oh, I
+I hope you're dancing in the sky
+And I hope you're singing in the angel's choir
+And I hope the angels know what they have
+I'll bet it's so nice up in Heaven since you arrived
+So tell me, what do you do up in Heaven?
+Are your days filled with love and light?
+Is there music? Is there art and adventure?
+Tell me are you happy? Are you more alive?
+'Cause here on Earth it feels like everything
+Good is missing since you left
+And here on Earth everything's different
+There's an emptiness
+vim-oh, I
+I hope you're dancing in the sky
+And I hope you're singing in the angel's choir
+And I hope the angels know what they have
+I'll bet it's so nice up in Heaven since you arrived
+vim-oh, I
+I hope you're dancing in the sky
+And I hope you're singing in the angel's choir
+And I hope the angels know what they have
+vim-oh, I
+I hope you're dancing in the sky
+And I hope you're singing in the angel's choir
+And I hope the angels know what they have
+vim-oh, I
+I hope you're dancing in the sky
+And I hope you're singing in the angel's choir
+And I hope the angels know what they have
+vim-oh, I
+I hope you're dancing in the sky
+And I hope you're singing in the angel's choir
+And I hope the angels know what they have
+vim-oh, I
+I hope you're dancing in the sky
+And I hope you're singing in the angel's choir
+And I hope the angels know what they have
+vim-oh, I
+I hope you're dancing in the sky
+And I hope you're singing in the angel's choir
+And I hope the angels know what they have
+Since you arrived
+vim, oh
+(What does it look like in heaven?) Yeah, yeah
+vim, oh, oh-oh
+vim-oh, oh
+vim, oh, I
+I hope you're dancing in the sky
+And I hope you're singing in the angel's choir
+And I hope the angels know what they have
+I'll bet it's so nice up in Heaven since you arrived
+Since you arrived
+
+1) Navigate to the third word, cut it, and paste it at the end of the line
+in "Normal mode" move to the beginning of the file: gg
+Navigate to the 3th word: 3w
+Cut it: dw
+Navigate the end of the line: $
+Past the word: p
+
+2) Change all "Oh" words to "vim": :%s/Oh/vim/g
+
+3) Go to the line 22: :22
+start recordinq: qq
+copy 4 lines: 4yy
+Go to line 26: :26
+past the lines: p
+close the recording: q
+use your recorded actions 5 times: 5@q
+

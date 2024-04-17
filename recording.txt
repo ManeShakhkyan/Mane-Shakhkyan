@@ -1,0 +1,31 @@
+"""
+<ul>
+     <li>First line</li>[Apr 01]
+     <li>Second line</li>[Apr 02]
+     <li>Fourth line</li>[Apr 04]
+     <li>Fifth line</li>[Apr 05]
+     <li>Sixth line</li>[Apr 06]
+     <li>Seventh line</li>[Apr 07]
+     <li>Eight line</li>[Apr 08]
+</ul>
+/* Use recording mode and update file content like this */
+<ul>
+     <li [Apr 01]>First line</li>
+     <li [Apr 02]>Second line</li>
+     <li [Apr 03]>Third line</li>
+     <li [Apr 04]>Fourth line</li>
+     <li [Apr 05]>Fifth line</li>
+     <li [Apr 06]>Sixth line</li>
+     <li [Apr 07]>Seventh line</li>
+     <li [Apr 08]>Eight line</li>
+</ul>
+"""
+-In "Normal mode" search for "[Apr" with the following command: / [Apr
+-press "v" and in "Visual mode" mark the required part [Apr 01] and press "d"
+-move the cursor back to the beginning of the file and search for <li with the following command:  /<li
+-Add a space after <li then press "p"
+-move the cursor a few steps to the right to arrange the recordings correctly
+-press to end recording "q"
+-use following command:     :%normal @a (the key to which we assigned the
+recording)
+

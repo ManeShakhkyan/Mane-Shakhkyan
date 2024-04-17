@@ -1,0 +1,32 @@
+"""
+
+Comment out the lines (write command or commands that will comment out the block)
+    File content
+    int main() {
+        std::cout << "comment out me" << std::endl;
+        std::cout << "comment out me" << std::endl;
+        std::cout << "comment out me" << std::endl;
+        std::cout << "comment out me" << std::endl;
+        std::cout << "comment out me" << std::endl;
+        std::cout << "End" << std::endl;
+        return 0;
+    }
+
+    Output should be
+    int main() {
+        // std::cout << "comment out me" << std::endl;
+        // std::cout << "comment out me" << std::endl;
+        // std::cout << "comment out me" << std::endl;
+        // std::cout << "comment out me" << std::endl;
+        // std::cout << "comment out me" << std::endl;
+       // std::cout << "End" << std::endl;
+        return 0;
+    }
+
+"""
+
+-We need to switch from "Normal" mode to "Visual" mode using "Ctrl+V"
+-Then select the rows from the beginning to the end
+-Now we need to switch from visual mode to "Insert Mode" by pressing "Shift+i"
+-After entering the insert mode, we need to type "//" and then press the ESC key.
+

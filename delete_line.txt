@@ -1,0 +1,6 @@
+1234567890
+1234567890
+
+
+Delete all lines that contains 'JUNK' word from delete_line.txt file:
+:/JUNK/d

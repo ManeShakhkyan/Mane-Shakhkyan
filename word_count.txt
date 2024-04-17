@@ -1,0 +1,17 @@
+"""
+Find matching word count in a file
+    File content
+        line foo line
+        line 2 foo
+        line foo
+        line foo foo
+        line 5 line
+Write a command to find ‘foo’ count
+
+""""
+
+It is necessary to type the following command in "Normal mode"(To enter Normal mode, you need to press the Esc key).
+                    
+                    :%s/foo//gn:
+
+Then press the Enter key.    
